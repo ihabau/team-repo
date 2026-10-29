@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Team-uppgift</title>
+</head>
+<body>
+  <h1 id="rubrik">TODO: gruppnamn</h1>
+  <p id="summa"></p>
+  <p id="status"></p>
+  <p id="langd"></p>
+  <script>
+    // TODO 1: Returnera gruppens namn.
+    function hamtaNamn() {
+      return "TODO";
+    }
+
+    // TODO 2: Returnera summan av a och b.
+    function addera(a, b) {
+      return 0;
+    }
+
+    // TODO 3: Returnera "ok" om talet är större än 10, annars "för låg".
+    function statusForTal(tal) {
+      return "TODO";
+    }
+
+    // TODO 4: Returnera hur många tecken texten har.
+    function raknaTecken(text) {
+      return 0;
+    }
+
+    document.getElementById("rubrik").textContent = hamtaNamn();
+    const summa = addera(7, 5);
+    document.getElementById("summa").textContent = "Summa: " + summa;
+    document.getElementById("status").textContent = statusForTal(summa);
+    document.getElementById("langd").textContent = "Tecken: " + raknaTecken("git");
+  </script>
+</body>
+</html>
